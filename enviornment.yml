@@ -1,0 +1,52 @@
+name: uof
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python>=3.11
+
+  # core
+  - numpy
+  - pandas
+  - polars
+  - scipy
+
+  # visualization
+  - matplotlib
+  - seaborn
+  - plotly
+
+  # stats / ML
+  - statsmodels
+  - scikit-learn
+
+  # optimization
+  - optuna
+
+  # gradient boosting
+  - xgboost
+  - lightgbm
+  - catboost
+
+  # deep learning
+  - pytorch
+  - torchvision
+  - torchaudio
+
+  # utils
+  - requests
+  - xlrd
+  - openpyxl
+  - census
+
+  # notebooks
+  - jupyter
+
+  # optional but useful
+  - pip
+
+  # pip-only packages (if needed)
+  - pip:
+      # leave empty or add packages not available on conda
