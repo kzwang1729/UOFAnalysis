@@ -5,13 +5,14 @@ channels:
   - defaults
 
 dependencies:
-  - python>=3.11
+  - python=3.11
 
   # core
   - numpy
   - pandas
   - polars
   - scipy
+  - pyarrow=17.0.0
 
   # visualization
   - matplotlib
@@ -21,19 +22,17 @@ dependencies:
   # stats / ML
   - statsmodels
   - scikit-learn
+  - pymc
+  - bambi
 
   # optimization
   - optuna
+  - numpyro
+  - jax
 
   # gradient boosting
   - xgboost
   - lightgbm
-  - catboost
-
-  # deep learning
-  - pytorch
-  - torchvision
-  - torchaudio
 
   # utils
   - requests
