@@ -30,3 +30,7 @@ misc/
 
 # OS
 Thumbs.db
+
+# Models
+model/
+no_fixed_effect_model/
